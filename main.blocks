@@ -1,0 +1,19 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="i*4K!PD-@K#630QSkfmQ">sprite</variable><variable id="C9obiEND:C2Upr25~0Dy">1</variable></variables><block type="device_button_event" id="N,pC%J65L)$HbtCkz24U" x="0" y="0"><field name="NAME">Button.A</field><statement name="HANDLER"><block type="device_clear_display" id="-h_MsHkLyYAXjiNJCzV+"><next><block type="game_add_score" id="=cLy%87Og7Iajh~NyYmz"><value name="points"><shadow type="math_number" id="=,|M.R:NhfH/FM`i5j(U"><field name="NUM">1</field></shadow></value></block></next></block></statement></block><block type="device_show_leds" id="A_Mr%.c(RF=-^VPQuAfL" disabled="true" x="367" y="55"><field name="LEDS">`
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        . . . . .
+        `</field></block><block type="device_button_event" id="0pzkd5]vfJ?s#H+aUd)u" x="421" y="402"><field name="NAME">Button.B</field><statement name="HANDLER"><block type="device_show_leds" id="D}of(5!S-M($3Uv]]x/{"><field name="LEDS">`
+        . . # # . 
+        . # . . . 
+        # . # . . 
+        # . . # . 
+        . . . . #
+        `</field></block></statement></block><block type="device_button_event" id="32!M;ts?|#LPkH#W_Zz[" disabled="true" x="665" y="404"><field name="NAME">Button.A</field><statement name="HANDLER"><block type="device_show_leds" id="cT^.!hhJ|gx*mDMBZX]E" disabled="true"><field name="LEDS">`
+        . # # # . 
+        # . # . # 
+        . . # . . 
+        . . # . . 
+        . . # . .
+        `</field></block></statement></block></xml>
